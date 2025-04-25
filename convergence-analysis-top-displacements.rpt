@@ -1,0 +1,127 @@
+********************************************************************************
+Probe Values Report, written on Mon Apr 21 20:26:25 2025
+
+Source
+-------
+
+   ODB: C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Convergence-400.odb
+   Step: Horizontal-Load
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+    ASSEMBLY           1         2.06259    -616.343E-03              0.         2.06259    -616.343E-03              0.
+    ASSEMBLY           1         2.06259    -616.343E-03              0.         2.06259    -616.343E-03              0.
+
+
+  Part Instance     Node ID  Attached elements           U, U1
+---------------------------------------------------------------
+    ASSEMBLY           1          Elem-1    -405.137E-09
+    ASSEMBLY           1          Elem-1    -405.137E-09
+
+
+********************************************************************************
+Probe Values Report, written on Mon Apr 21 20:32:21 2025
+
+Source
+-------
+
+   ODB: C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Convergence-600.odb
+   Step: Horizontal-Load
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+    ASSEMBLY           1         167.063    -616.343E-03              0.         167.063    -616.343E-03              0.
+
+
+  Part Instance     Node ID  Attached elements           U, U1
+---------------------------------------------------------------
+    ASSEMBLY           1          Elem-1    -405.891E-09
+
+
+********************************************************************************
+Probe Values Report, written on Mon Apr 21 20:40:19 2025
+
+Source
+-------
+
+   ODB: C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Convergence-800.odb
+   Step: Horizontal-Load
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+    ASSEMBLY           1         332.063    -616.343E-03              0.         332.063    -616.343E-03              0.
+
+
+  Part Instance     Node ID  Attached elements           U, U1
+---------------------------------------------------------------
+    ASSEMBLY           1          Elem-1    -406.373E-09
+
+
+********************************************************************************
+Probe Values Report, written on Mon Apr 21 20:44:49 2025
+
+Source
+-------
+
+   ODB: C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Convergence-1000.odb
+   Step: Horizontal-Load
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+    ASSEMBLY           1         497.063    -616.343E-03              0.         497.063    -616.343E-03              0.
+
+
+  Part Instance     Node ID  Attached elements           U, U1
+---------------------------------------------------------------
+    ASSEMBLY           1          Elem-1    -406.413E-09
+
+
+********************************************************************************
+Probe Values Report, written on Tue Apr 22 11:26:56 2025
+
+Source
+-------
+
+   ODB: C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Element-T3.odb
+   Step: Horizontal-Load
+   Frame: Increment      1: Step Time =    1.000
+   Variable: S, Mises (Avg: 100)
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+        TRI3         763        -24.9669        -80.0641              0.        -24.9669        -80.0641              0.
+
+
+  Part Instance     Node ID  Attached elements        S, Mises
+---------------------------------------------------------------
+        TRI3         763             312         199.276
+        TRI3         763             477         199.276
+        TRI3         763            1189         199.276
+        TRI3         763            1285         199.276
+        TRI3         763            1294         199.276
+        TRI3         763            1295         199.276
+
+

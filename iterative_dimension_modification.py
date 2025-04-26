@@ -13,8 +13,9 @@ feature_name = 'bracket-feature'
 instance_name = 'quad8'
 odb_path = 'C:/Users/Owner/OneDrive - University of Florida/@Spring 25/FEA/FEA Final Project/Final_Project_Abaqus_Files/Dimension-Modification-Job.odb'
 
-# sketch object not embedded into a feature. Can be modified directly but isn't tied to a model 
-#persistent_sketch = mdb.models[model_name].sketches['modifiable_sketch']
+# Load the existing model database (.cae file)
+model_database_path = r"C:\Users\Owner\OneDrive - University of Florida\@Spring 25\FEA\FEA Final Project\Final_Project_Abaqus_Files\Final_Project.cae"
+mdb = openMdb(model_database_path)
 
 # custom functions
 def modify_dimension_parameter(parameter_name, new_dimension):  # mm
@@ -180,6 +181,10 @@ def compute_front_surface_area():   # mm^2
 
 max_allowable_stress = 800  # MPa
 
+results_file = r"C:\Users\Owner\OneDrive - University of Florida\@Spring 25\FEA\FEA Final Project\Final_Project_Abaqus_Files\results.json"
+
+
+
 # import parameters from file created in external script
 params_file = 'parameters.json'
 with open(params_file, 'r') as f:
@@ -194,6 +199,7 @@ D6 = params['D6']
 D7 = params['D7']
 D8 = params['D8']
 D9 = params['D9']
+
 
 
 model_name = 'Dimension-Modification'
@@ -239,11 +245,9 @@ result = {
     'max_stress' : stress
 }
 
-results_file = 'results.json'
+
 with open(results_file, 'w') as f:
     json.dump(result, f)
-
-print(f"Simulation complete: {result}")
 
 
                                   
